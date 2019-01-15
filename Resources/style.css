@@ -1,0 +1,140 @@
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  max-width: 1200px;
+}
+
+/* Header and Navigation */
+
+header {
+  display: flex;
+  position: fixed;
+  flex-flow: row nowrap;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid white;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.nav a {
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: underline;
+  color: white;
+}
+
+/* First Section */
+
+.firstSection {
+  display: flex;
+  background-image: url("../Images/Background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.strapline {
+  background-color: black;
+  width: 100%;
+}
+
+.strapline h4,h2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Middle Section */
+
+.secondSection {
+  display: flex;
+  flex-flow: column wrap;
+  width: 1000px;
+  margin: auto;
+  justify-content: center;
+}
+
+.steepingContent {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.steepingContent img {
+  height: 200px;
+  width: 300px;
+}
+
+.steepingContent h4 {
+  align-items: flex-start;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* Last Section */
+
+.lastSection {
+  display: flex;
+  flex-direction:column;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../Images/Locations.jpg");
+  align-items: center;
+}
+
+.lastSection h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.blackBoxes {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  align-items: center;
+}
+
+.blackBox {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 15px 40px 0 40px;
+  opacity: 1;
+  justify-content: space-evenly;
+}
+
+.blackBox h3 p {
+  align-items: stretch; /* Couldn't get the text to spread out across the box? */
+}
+
+/* Footer */
+
+.footer {
+  height: 200px;
+  width: auto;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
